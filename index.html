@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<title>Vaporwave</title>
+<link rel="icon" href="images/icon.png" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/load.css">
+<html>
+
+<body>
+<img id="myimage" class="background" src="images/load.png" style="display:none" />
+<img id="myimage1" class="background" src="images/win95.jpg" style="display:none" />
+<script src="js/load.js"></script
+</body>
+<script type="text/javascript">
+setTimeout(function(){
+    document.getElementById('myimage').style.display = 'block';
+},400);
+setTimeout(function(){
+    document.getElementById('myimage').style.display = 'none';
+},800);
+setTimeout(function(){
+    document.getElementById('myimage').style.display = 'block';
+},1200);
+setTimeout(function(){
+    document.getElementById('myimage').style.display = 'none';
+},1600);
+setTimeout(function(){
+    document.getElementById('myimage1').style.display = 'block';
+},2000);
+setTimeout(function(){window.location.href='home.html'},3000);
+</script>
+
+</html>
