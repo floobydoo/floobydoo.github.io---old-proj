@@ -14,7 +14,7 @@ body div {
  #taskbar {
      height: 26px;
      background-color: rgb(192,192,192);
-     position: absolute;
+     position: fixed;
      bottom: 0px;
      left: 0px;
      right: 0px;

@@ -1,5 +1,8 @@
 body {}
 
+.leadtitle{
+  font-family: Courier;
+}
 .container {
   border: 2px solid;
   border-bottom-color: #535353;
@@ -10,6 +13,7 @@ body {}
   max-width: 600px;
   font-size: 13px;
   padding: 2px;
+  margin-bottom: 40px;
 }
 
 .container ul.toolbar {
